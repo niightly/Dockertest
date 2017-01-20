@@ -1,0 +1,13 @@
+# TEST ON BLUEMIX
+# For testing dev builds on the bluemix
+# environment.
+# Branches: master
+
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: w3ibm.mybluemix.net
+  name: rooms-test
+  host: rooms-test
+  disk_quota: 1024M

@@ -1,0 +1,12 @@
+# PRODUCTION
+# The final user-facing deployment
+# Branches: production
+
+applications:
+- path: .
+  memory: 512M
+  instances: 3
+  domain: w3ibm.mybluemix.net
+  name: rooms
+  host: rooms
+  disk_quota: 1024M
